@@ -37,5 +37,6 @@ sudo apt-get install kpartx
 sudo apt-get install rsync
 sudo apt-get install mc
 sudo apt-get install neofetch
+pip install paramiko netifaces pillow
 
 
