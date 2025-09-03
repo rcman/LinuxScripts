@@ -1,4 +1,3 @@
-sudo apt-get install
 sudo apt-get install build-essential 
 sudo apt-get install automake 
 sudo apt-get install libtool 
