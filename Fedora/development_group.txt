@@ -1,0 +1,2 @@
+To install the development tools group on Fedora, open your terminal and use the command sudo dnf group install "Development Tools" for older dnf versions or sudo dnf install @development-tools for the newer dnf5 syntax. 
+This command installs essential development libraries, tools like compilers (GCC), and linkers necessary for building   and developing software on your Fedora system
