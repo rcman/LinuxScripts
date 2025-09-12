@@ -1,0 +1,13 @@
+Stopping the firewall may not be enough, there is one more command you can use.
+
+
+sudo systemctl stop firewalld
+
+sudo systemctl disable firewalld
+
+sudo systemctl mask firewalld
+
+Mask the firewalld service (optional but recommended for complete disablement)
+For a more complete disablement, mask the service. This prevents it from being started by other services that might pull it in as a dependency. 
+
+This creates a symbolic link from /etc/systemd/system/firewalld.service to /dev/null, effectively making the service unavailable
